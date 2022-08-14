@@ -13,6 +13,7 @@
 		E668A10C28A8AC89002EFD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E668A10A28A8AC89002EFD8E /* Main.storyboard */; };
 		E668A10E28A8AC8A002EFD8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E668A10D28A8AC8A002EFD8E /* Assets.xcassets */; };
 		E668A11128A8AC8A002EFD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E668A10F28A8AC8A002EFD8E /* LaunchScreen.storyboard */; };
+		E668A11928A8B81F002EFD8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668A11828A8B81F002EFD8E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E668A10D28A8AC8A002EFD8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E668A11028A8AC8A002EFD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E668A11228A8AC8A002EFD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E668A11828A8B81F002EFD8E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E668A10428A8AC89002EFD8E /* AppDelegate.swift */,
+				E668A10A28A8AC89002EFD8E /* Main.storyboard */,
 				E668A10628A8AC89002EFD8E /* SceneDelegate.swift */,
 				E668A10828A8AC89002EFD8E /* ViewController.swift */,
-				E668A10A28A8AC89002EFD8E /* Main.storyboard */,
+				E668A11828A8B81F002EFD8E /* SecondViewController.swift */,
 				E668A10D28A8AC8A002EFD8E /* Assets.xcassets */,
 				E668A10F28A8AC8A002EFD8E /* LaunchScreen.storyboard */,
 				E668A11228A8AC8A002EFD8E /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E668A11928A8B81F002EFD8E /* SecondViewController.swift in Sources */,
 				E668A10928A8AC89002EFD8E /* ViewController.swift in Sources */,
 				E668A10528A8AC89002EFD8E /* AppDelegate.swift in Sources */,
 				E668A10728A8AC89002EFD8E /* SceneDelegate.swift in Sources */,
