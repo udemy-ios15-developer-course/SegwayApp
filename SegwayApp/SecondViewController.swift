@@ -10,8 +10,13 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var nameText: UITextField!
+    
+    var myName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nameText.text = myName
     }
 }
